@@ -31,41 +31,42 @@ Or get started now within the API3 Market.
 
 - [API3 Market](https://market.api3.org/)
 
-### API3 Demo Project: Payments dApp 
+### API3 Demo Project: Payments dApp
 
 This tutorial takes users through accessing and integrating dAPIs into a simple payments dApp. This quick start guide should take less than 30mins to follow. 
 
 - [Using dAPIs in a Payments dApp](https://github.com/vanshwassan/dAPI-payments)
 
-
-<!--### QRNG - API3's Quantum Random Number Generator
-
-API3 QRNG is a public utility we provide with the courtesy of Australian National University (ANU). It is powered by an Airnode hosted by ANU Quantum Random Numbers, meaning that it is a first-party service. It is served as a public good and is free of charge (apart from the gas costs), and it provides ‘true’ quantum randomness via an easy-to-use solution when requiring RNG on-chain.
-
-- [Using QRNG in a Lottery dApp](https://docs.api3.org/guides/qrng/lottery-guide/)-->
-
-<!--
-- [Getting started with Airnode](https://docs.api3.org/guides/airnode/calling-an-airnode/)
-- [Getting started with QRNG](https://docs.api3.org/guides/qrng/qrng-remix/)
-- [Getting started with Self-funded dAPIs](https://docs.api3.org/guides/dapis/subscribing-self-funded-dapis/)-->
-
 # Hackathon Challenge: Using API3's First-party Oracles to power DeFi dApps
 
-### Overview
+## Best DeFi Innovation Project: $3000 USDC
 
-We want builders to explore decentralized financial services that can be built using API3's first-party oracles and datafeeds.
-
-Outside of DeFi, we will also accept submissions from dApps that use Airnode or QRNG that facilitate a proper use-case. Participants are free to implement their own ideas.
-
-### Potential Ideas
+Builders can use API3's first-party oracles and datafeeds to build and serve decentralized financial servies like:
 
 - Prediction market
 - Lending application
 - Perpetual swaps
 - Derivative protocols 
-- P2P transactional bots
 - Decentralized insurance protocols
 - Algorithmic stablecoin
+
+## Best Non-DeFi Project: $500 USDC
+
+- Using Airnode or QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
+
+## Project that uses API3's dAPIs with a zkSync Paymaster: $500 USDC
+
+## Best content around API3: $500 API3 Tokens
+
+- Blog posts and articles
+- Videos and explainers
+- Technical Tutorials
+- Technical Documentation
+
+## Best Airnode Protocol Improvement: $500 USDC
+
+- Developer tooling around Airnode, dAPIs and other API3 products.
+- Best Airnode use-case 
 
 ## Judging criteria
 
@@ -87,8 +88,8 @@ After judges complete the evaluations, the top 2 projects will be selected based
 
 |       Position       |     Prize    |
 |----------------------|--------------|
-|  First place winner  | $3000 USDC   |
-|   Second runner up   |   $1000 USDC  |
+|    |    |
+|      |     |
 |     |     |
 
 <!--
