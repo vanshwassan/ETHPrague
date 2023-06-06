@@ -1,24 +1,35 @@
-# ETHPrague Hackathon 2023 x API3: Hackathon Instructions
+# ETHPrague Hackathon 2023
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Introduction to API3 for ETHPrague Hackers
 
-### Understanding API3
-
-[API3](https://api3.org/) is a collaborative project that delivers traditional API services to smart contract platforms in a decentralized and trust-minimized way. It is governed by a decentralized autonomous organization (DAO), namely the [API3 DAO](https://api3.org/dao).
+[API3](https://api3.org/) is a collaborative project that delivers oracle services to smart contracts in a decentralized and trust-minimized way. It is governed by a decentralized autonomous organization (DAO), namely the [API3 DAO](https://api3.org/dao).
 
 - [API3 Docs](https://docs.api3.org/)
 - [Github](https://github.com/api3dao/)
 - [Medium](https://medium.com/@api3)
 
-Airnode is a first-party oracle that pushes off-chain API data to an on-chain contract. Airnode is a serverless function that lets API providers easily run their own oracle nodes. That way, they can provide data to any on-chain dApp that's interested in their services without an intermediary.
+### API3's oracle stack
 
-- [Learn more about first-party oracles](https://docs.api3.org/guides/airnode/calling-an-airnode/)
+Airnode is a serverless function that lets API providers run their own oracle nodes. That way, they can provide data to any on-chain dApp that's interested in their services without an intermediary.
 
-### dAPIs: first-party data feeds 
+First-party oracles provide a more secure and reliable oracle, whilst enabling dApps to transparently understand the data source. 
 
-To get started with self-funded dAPIs, all you have to do is import the `IProxy` Interface, and call the `read()` function. 
+ou can [learn more about first-party oracles](https://docs.api3.org/guides/airnode/calling-an-airnode/) or [dAPIs](https://docs.api3.org/explore/dapis/what-are-dapis.html) within the API3 Documentation. 
+
+### API3 data feeds: dAPIs
+
+dAPIs provide smart contracts with access to continuously updated feeds of market data. API3 data feeds can be accessed in two methods:
+
+1- Self-funded dAPIs see users add collateral for oracle operatation and are permissionless. They provide an efficient and secure data feed source, with off-chain agreegation. 
+2- Managed dAPIs are operated by the API3 DAO and requires authorization. They are powered by mutliple first-party oracles with native-chain agreegation, offering a decentralized oracle solution. 
+
+Once a dAPI has been imported a smart contract can access a range of data feed services through the [API3 Market](https://market.api3.org/dapis). 
+
+# Get started with dAPIs 
+
+To get started all you have to do is import the `IProxy` Interface, and call the `read()` function. 
 
 ```solidity
 pragma solidity 0.8.17;
@@ -42,17 +53,24 @@ contract DataFeedReaderExample {
 }
 ``` 
 
-API3 uses first-party oracles to power [dAPIs](https://docs.api3.org/explore/dapis/what-are-dapis.html). dAPIs are secure, transparent, and cost-efficient data feeds that connect smart contracts directly to first-party data sources.
+<!-- Do we need to add a link to the above?-->
 
-Self-funded dAPIs give DeFi builders access to over **100 forex & crypto dAPIs that serve real-time market data** to 10 networks (and 11 testnets). 
+### Additional learning resources 
+
+dAPIs give DeFi builders access to over 130 forex & crypto dAPIs that serve real-time market data to 10 networks (and 11 testnets). The below resources will help you get started with first-party data feeds.
+
+Learn more: 
 
 - [Activating a self-funded dAPI](https://docs.api3.org/guides/dapis/subscribing-self-funded-dapis/)
 - [Reading a dAPI](https://docs.api3.org/guides/dapis/read-self-funded-dapi/)
 - [API3 data feed reader example](https://github.com/api3dao/data-feed-reader-example)
+
+Tutorials: 
+
 - [Using dAPIs on zkSync Era Testnet](https://vanshwassan.medium.com/using-dapis-on-zksync-era-testnet-30f12efdd95f)
 - [Making on-chain Payments and mint NFT Receipts using dAPIs](https://medium.com/@vanshwassan/making-an-on-chain-payment-and-minting-an-nft-receipt-with-permissionless-price-oracles-a7339f7b8c3e)
 - [zkSync Paymasters with dAPIs](https://github.com/vanshwassan/zk-paymaster-dapi-poc)
-- [Paymasters with dAPIs]()
+- [EVM Paymasters with dAPIs]()
 
 Or get started now with the API3 Market.
 
@@ -60,7 +78,7 @@ Or get started now with the API3 Market.
 
 # Hackathon Challenge: Using API3's First-party Oracles to power DeFi dApps
 
-## Best DeFi Innovation Project: $3000 USDC
+## Best DeFi Innovation Project: $2500 USDC
 
 Builders can use API3's first-party oracles and datafeeds to build and serve decentralized financial servies like:
 
@@ -73,7 +91,7 @@ Builders can use API3's first-party oracles and datafeeds to build and serve dec
 
 ## Best Non-DeFi Project: $500 USDC
 
-- Using Airnode or QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
+- Using Airnode or API3 QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
 
 ## Project that uses Paymasters with dAPIs within their projects: $1500 USDC
 
