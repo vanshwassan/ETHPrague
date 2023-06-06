@@ -78,9 +78,9 @@ Or get started now with the API3 Market.
 
 # Hackathon Challenge: Using API3's First-party Oracles to power DeFi dApps
 
-## Best DeFi Innovation Project: $2500 USDC
+## Best DeFi Application: $2500 API3 Tokens
 
-Builders can use API3's first-party oracles and datafeeds to build and serve decentralized financial servies like:
+Use and correct integration of dAPIs within:
 
 - Prediction market
 - Lending application
@@ -89,22 +89,22 @@ Builders can use API3's first-party oracles and datafeeds to build and serve dec
 - Decentralized insurance protocols
 - Algorithmic stablecoin
 
-## Best Non-DeFi Project: $500 USDC
+## Use of dAPIs within a Paymasters contract: $1000 API3 Tokens
+
+- dAPIs can be used within Paymaster contracts  with dAPIs within the project to enable users to pay for gas in any token of their choice on your platform.
+
+## Best Non-DeFi Project: $500 API3 Tokens
 
 - Using Airnode or API3 QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
-
-## Project that uses Paymasters with dAPIs within their projects: $1500 USDC
-
-- Using Paymaster with dAPIs within the project to enable users to pay for gas in any token of their choice on your platform.
 
 ## Best content around API3: $500 API3 Tokens
 
 - Blog posts and articles
 - Videos and explainers
-- Technical Tutorials
-- Technical Documentation
+- Technical tutorials
+- Technical documentation
 
-## Best Airnode Protocol Improvement: $500 USDC
+## Best Airnode Protocol Improvement: $500 API3 Tokens
 
 - Developer tooling around Airnode, dAPIs and other API3 products.
 - Best Airnode use-case 
