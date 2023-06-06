@@ -78,7 +78,7 @@ Or get started now with the API3 Market.
 
 # Hackathon Challenge: Using API3's First-party Oracles to power DeFi dApps
 
-## Best DeFi Application: $2500 API3 Tokens
+### Best DeFi Application: $2500 API3 Tokens
 
 Use and correct integration of dAPIs within:
 
@@ -89,25 +89,32 @@ Use and correct integration of dAPIs within:
 - Decentralized insurance protocols
 - Algorithmic stablecoin
 
-## Use of dAPIs within a Paymasters contract: $1000 API3 Tokens
+Use of an API3 oracle within a zero-knowledge DeFi primitive will be considered within judging. 
 
-- dAPIs can be used within Paymaster contracts  with dAPIs within the project to enable users to pay for gas in any token of their choice on your platform.
+### Use of dAPIs within a Paymasters contract: $1000 API3 Tokens
 
-## Best Non-DeFi Project: $500 API3 Tokens
+- dAPIs can be used within Paymaster contracts to enable users to pay for gas in any token of their choice on your platform.. You can follow the [Paymasters with dAPIs on zkSync](https://github.com/vanshwassan/zk-paymaster-dapi-poc) to support this submission.
+
+### Best Non-DeFi Project: $1000 API3 Tokens
 
 - Using Airnode or API3 QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
 
-## Best content around API3: $500 API3 Tokens
+### Best API3 content creation: $500 API3 Tokens
 
 - Blog posts and articles
 - Videos and explainers
 - Technical tutorials
-- Technical documentation
+- Viral & community content 
 
-## Best Airnode Protocol Improvement: $500 API3 Tokens
+## Submission Requirements
 
-- Developer tooling around Airnode, dAPIs and other API3 products.
-- Best Airnode use-case 
+All hackathon participants who are competing for the API3 bounties are required to submit a project that meets the following requirements:
+
+- The project should be submitted to the ETHPrague Hackathon 2023 x API3 Devpost page by the deadline.
+- Use of API3’s dAPIs/Airnode/QRNG that facilitates a proper use-case.
+- The project should be live with a working frontend deployed.
+- The project should be open-source with a public Github repository with the codebase, 
+- The repo must be licenced with one of the following open source licences: GPL-3.0, or MIT.
 
 ## Judging criteria
 
@@ -123,23 +130,8 @@ Participants may submit a maximum of 1 project by the hackathon deadline. After 
 
 - **BONUS** - Adding functionality to the Airnode protocol that will improve performance, interoperability, or further develop use cases.
 
-## Submission Requirements
 
-All hackathon participants who are competing for the API3 bounties are required to submit a project that meets the following requirements:
 
-- The project should be submitted to the ETHPrague Hackathon 2023 x API3 Devpost page by the deadline.
-- Use of API3’s dAPIs/Airnode/QRNG that facilitates a proper use-case.
-- The project should be live with a working frontend deployed.
-- The project should be open-source with a public Github repository with the codebase, 
-- The repo must be licenced with one of the following open source licences: GPL-3.0, or MIT.
-
-## Prizes
-
-|       Position       |     Prize    |
-|----------------------|--------------|
-|    |    |
-|      |     |
-|     |     |
 
 <!--
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)-->
