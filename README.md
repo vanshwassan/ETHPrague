@@ -18,6 +18,30 @@ Airnode is a first-party oracle that pushes off-chain API data to an on-chain co
 
 ### dAPIs: first-party data feeds 
 
+To get started with self-funded dAPIs, all you have to do is import the `IProxy` Interface, and call the `read()` function. 
+
+```solidity
+pragma solidity 0.8.17;
+
+import "@api3/contracts/v0.8/interfaces/IProxy.sol";
+
+contract DataFeedReaderExample {
+    ...
+
+    function readDataFeed()
+        external
+        view
+        returns (int224 value, uint256 timestamp)
+    {
+        // proxyAddress is the address of the proxy contract for
+        // the dAPI you want to read.
+        // Head over to https://market.api3.org to get the proxy
+        // address for the dAPI you want. 
+        (value, timestamp) = IProxy(proxyAddress).read();
+    } 
+}
+``` 
+
 API3 uses first-party oracles to power [dAPIs](https://docs.api3.org/explore/dapis/what-are-dapis.html). dAPIs are secure, transparent, and cost-efficient data feeds that connect smart contracts directly to first-party data sources.
 
 Self-funded dAPIs give DeFi builders access to over **100 forex & crypto dAPIs that serve real-time market data** to 10 networks (and 11 testnets). 
@@ -26,16 +50,13 @@ Self-funded dAPIs give DeFi builders access to over **100 forex & crypto dAPIs t
 - [Reading a dAPI](https://docs.api3.org/guides/dapis/read-self-funded-dapi/)
 - [API3 data feed reader example](https://github.com/api3dao/data-feed-reader-example)
 - [Using dAPIs on zkSync Era Testnet](https://vanshwassan.medium.com/using-dapis-on-zksync-era-testnet-30f12efdd95f)
+- [Making on-chain Payments and mint NFT Receipts using dAPIs](https://medium.com/@vanshwassan/making-an-on-chain-payment-and-minting-an-nft-receipt-with-permissionless-price-oracles-a7339f7b8c3e)
+- [zkSync Paymasters with dAPIs](https://github.com/vanshwassan/zk-paymaster-dapi-poc)
+- [Paymasters with dAPIs]()
 
-Or get started now within the API3 Market.
+Or get started now with the API3 Market.
 
 - [API3 Market](https://market.api3.org/)
-
-### API3 Demo Project: Payments dApp
-
-This tutorial takes users through accessing and integrating dAPIs into a simple payments dApp. This quick start guide should take less than 30mins to follow. 
-
-- [Using dAPIs in a Payments dApp](https://github.com/vanshwassan/dAPI-payments)
 
 # Hackathon Challenge: Using API3's First-party Oracles to power DeFi dApps
 
@@ -54,7 +75,9 @@ Builders can use API3's first-party oracles and datafeeds to build and serve dec
 
 - Using Airnode or QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
 
-## Project that uses API3's dAPIs with a zkSync Paymaster: $500 USDC
+## Project that uses Paymasters with dAPIs within their projects: $1500 USDC
+
+- Using Paymaster with dAPIs within the project to enable users to pay for gas in any token of their choice on your platform.
 
 ## Best content around API3: $500 API3 Tokens
 
@@ -82,7 +105,15 @@ Participants may submit a maximum of 1 project by the hackathon deadline. After 
 
 - **BONUS** - Adding functionality to the Airnode protocol that will improve performance, interoperability, or further develop use cases.
 
-After judges complete the evaluations, the top 2 projects will be selected based on their weighted scores to receive prizes. Winners will be announced shortly after the hackathon ends.
+## Submission Requirements
+
+All hackathon participants who are competing for the API3 bounties are required to submit a project that meets the following requirements:
+
+- The project should be submitted to the ETHPrague Hackathon 2023 x API3 Devpost page by the deadline.
+- Use of API3’s dAPIs/Airnode/QRNG that facilitates a proper use-case.
+- The project should be live with a working frontend deployed.
+- The project should be open-source with a public Github repository with the codebase, 
+- The repo must be licenced with one of the following open source licences: GPL-3.0, or MIT.
 
 ## Prizes
 
