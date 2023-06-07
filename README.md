@@ -95,11 +95,11 @@ Use of an API3 oracle within a zero-knowledge DeFi primitive will be considered 
 
 - dAPIs can be used within Paymaster contracts to enable users to pay for gas in any token of their choice on your platform.. You can follow the [Paymasters with dAPIs on zkSync](https://github.com/vanshwassan/zk-paymaster-dapi-poc) to support this submission.
 
-### Best use of API3 Oracle Stack: $500 API3 Tokens
+### 🎰 Best use of API3 Oracle Stack: $500 API3 Tokens
 
 - Using Airnode or API3 QRNG to facilitate a proper use-case. Participants are free to implement their own ideas.
 
-### Community challenge: Content creatoooor $500 API3 Tokens
+### 😃 Community challenge: Content creatoooor $500 API3 Tokens
 
 - Blog posts and articles
 - Videos and explainers
